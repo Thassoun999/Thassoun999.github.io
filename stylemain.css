@@ -1,0 +1,34 @@
+body {
+  background-color: #ffffff;
+  color: #db6363;
+  text-align: center;
+}
+
+.navbar-header{
+    background-image: url("https://pre00.deviantart.net/f8d0/th/pre/i/2011/329/5/8/clean_background_by_shvelo96-d4h96qt.jpg");
+}
+
+
+.navigation_bar {
+    background-color: rgb(84, 128, 141);
+    overflow: hidden;
+}
+
+.navigation_bar a{
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navigation_bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navigation_bar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
