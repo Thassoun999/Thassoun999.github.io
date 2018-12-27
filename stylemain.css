@@ -10,11 +10,11 @@ body {
     background-size: cover;
 }
 
-
 .navigation_bar {
     background-color: rgb(84, 128, 141);
     overflow: hidden;
 }
+
 
 .navigation_bar a{
     float: center;
@@ -30,68 +30,27 @@ body {
   color: black;
 }
 
-.navigation_bar a.active {
-  background-color: #4CAF50;
+.navigation_bar a:active {
+  background-color: black;
   color: white;
 }
+
+
 
 
 /* Carousel */
-.carousel-outer{
+.carousel{
   position: relative;
-  
+  margin: auto;
 }
+
 
 /* Only use images of same res */
+
 .mySlides{
-    display:none;
-    width:100%;
-    height:auto;
+    height: auto;
+    display: none;
 
-}
-
-.prev, .next{
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  user-select: none;
-}
-
-.next{
-  right:0;
-  border-radius: 0 3px 3px 0;
-}
-
-.prev{
-  left:0;
-  border-radius: 0 3px 3px 0;
-}
-
-.prev:hover, .next:hover{
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
 }
 
 .fade {
