@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+/*Navbar Top*/
+body {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.navbar-header{
+    background-image: url("https://pre00.deviantart.net/f8d0/th/pre/i/2011/329/5/8/clean_background_by_shvelo96-d4h96qt.jpg");
+    background-size: cover;
+}
+
+.navigation_bar {
+    background-color: 	#E1E1E1;
+    overflow: hidden;
+}
+
+
+.navigation_bar a{
+    float: center;
+    color: black;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navigation_bar a:hover {
+  background-color: grey;
+  color: #f2f2f2;
+}
+
+.navigation_bar a:active {
+  background-color: black;
+  color: white;
+}
