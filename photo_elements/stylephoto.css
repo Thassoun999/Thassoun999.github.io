@@ -38,3 +38,23 @@ body {
   background-color: black;
   color: white;
 }
+
+/*Photo Container*/
+.photo-container{
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-item{
+  flex: 1;
+  flex-basis: 25%;
+  margin: 20px;
+}
+
+.photo-item .photo {
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(15, 15, 15);
+}
