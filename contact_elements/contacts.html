@@ -6,6 +6,8 @@
     <title> Home Page | NYU ohSTEM </title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='stylecontact.css'>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="contactcode.js"></script>
 
 </head>
 
@@ -39,13 +41,14 @@
         <h1 class="title">Contact Us</h1>
     </div>
     <div class="contact-form">
-        <form id="contact-form" method="post" action="">
-            <input name="name" type="text" class="form-control" placeholder="First Name Here" required><br>
-            <input name="name" type="text" class="form-control" placeholder="Last Name Here" required><br>
-            <input name="email" type="text" class="form-control" placeholder="Email Here" required><br>
+        <form id="contact-form" method="POST" action="https://formspree.io/nyu@chapters.ostem.org">
+            <input name="name" type="text" class="form-control full" placeholder="Full Name Here" required><br>
+            <input name="email" type="text" class="form-control email" placeholder="Email Here" required><br>
 
-            <textarea name="message" type="text" class="form-control" placeholder="Your Message Here" rows="6" required></textarea><br>
+            <textarea name="message" type="text" class="form-control message" placeholder="Your Message Here" rows="6" required></textarea><br>
+            <div class="status">
 
+            </div>
             <input type="submit" class="form-submit" value="SEND MESSAGE">
         </form>
     </div>
