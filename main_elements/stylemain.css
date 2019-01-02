@@ -94,19 +94,14 @@ h2{
 }
 
 hr{
-  margin-top: 31px;
-  margin-bottom: 31px;
-  border: 0;
+  border: none;
   border-top: 1px solid #eee;
   box-sizing: content-box;
-  height: 0;
   display: block;
-  unicode-bidi: isolate;
   margin-block-start: 2.5em;
   margin-block-end: 2.5em;
   margin-inline-start: auto;
   margin-inline-end: auto;
-  overflow: hidden;
   width: 75%;
 }
 
