@@ -11,7 +11,7 @@ the LGBTQ+ side.
 
 This is NOT in any way a hateful attempt to devalue the work that oSTEM does, or to villify the organization.
 We are doing this AS PART OF oSTEM at NYU in an attempt to protect the identities of all students who attend our events.
-We are doing this to ensure the safety of our students and the general safety of the Queer Community present at New York University.
+We are doing this to ensure the safety of our students and the general safety of the LGBTQ+ Community present at New York University.
 
 Thank you for reading!
 
