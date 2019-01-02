@@ -1,3 +1,5 @@
+PLEASE READ ME!
+
 CONTEXT FOR THIS WEBSITE:
 
 This website is made by oSTEM (out in STEM, not ohSTEM as the same suggests) at NYU.
