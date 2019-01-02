@@ -38,3 +38,59 @@ body {
   background-color: black;
   color: white;
 }
+
+.title{
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 45px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #424242;
+
+  text-align: left;
+  display: block;
+
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 205px;
+  margin-inline-end: 205px;
+}
+
+.form-control{
+  width: 800px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+
+.form-submit{
+  width: 800px;
+  margin-bottom: 16px;
+  outline: none;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 20px;
+
+  background: gray;
+  border-color: transparent;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.form-submit{
+  cursor: pointer;
+}
+.form-submit:active{
+  background: darkgray
+}
+
+input{
+  height: 30px;
+}
