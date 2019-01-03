@@ -28,7 +28,7 @@ $(document).ready(function(){
         }
 
         if(fullName.length == 0){
-            status.append('<div>Name Field not valid</div>')
+            status.append('<div>Name Field is not valid</div>');
             event.preventDefault();
         }else{
             status.append('<div>Name Field is valid</div>')
