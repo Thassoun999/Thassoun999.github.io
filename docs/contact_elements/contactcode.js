@@ -1,5 +1,3 @@
-console.log("I work");
-
 
 $(document).ready(function(){
     $('.form-submit').click(function(event){
