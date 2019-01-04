@@ -4,7 +4,7 @@
 }
 
 /*Navbar Top*/
-body {
+.navbar-fixed-top-banner-live-text {
   background-color: #ffffff;
   text-align: center;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 .navigation_bar {
-    background-color: 	#E1E1E1;
+    background-color: #E1E1E1;
     overflow: hidden;
 }
 
@@ -42,15 +42,15 @@ body {
 
 .statetext{
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  display: block;
+  display: inline-block;
   font-size: 93.75%;
   font-weight: 400;
   color: #222;
   text-align: left;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 0.05em;
+  margin-block-end: 0.05em;
   margin-inline-start: 13.5%;
-
+  margin-inline-end: 14.5%;
 }
 
 
@@ -67,22 +67,26 @@ h3{
   margin-inline-start: 13.5%;
 }
 
-ul{
-    display: block;
-    list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    line-height: 0;
+.listelement{
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  display: inline-block;
+  font-size: 93.75%;
+  font-weight: 400;
+  color: #222;
+  margin-block-start: 0.25em;
+  margin-block-end: 0.25em;
+  word-wrap: break-word;
+  margin-inline-start: 15.5%;
 }
+
 
 h2{
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  display: block;
+  display: inline-block;
   line-height: 0;
   font-size: 93.75%;
   text-align: left;
-  margin-top: 2%;
-  margin-inline-start: 13.5%;
+  margin-inline-start: 15.5%;
 }
 
 hr{
@@ -102,6 +106,7 @@ footer{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   color: #C0C0C0;
+  text-align: center;
 }
 
 .title{
