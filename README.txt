@@ -1,3 +1,5 @@
+ohstem.org
+
 PLEASE READ ME!!!!
 
 CONTEXT FOR THIS WEBSITE:
@@ -20,3 +22,5 @@ Thank you for reading!
 -Tarek Hassoun
 th1750@nyu.edu
 1-(201)-815-7363
+
+PS: I just put in the .htaccess so go to ohstem.org if you want to see the website since running it from the code side is tricky.
