@@ -3,7 +3,7 @@
 }
 
 /*Navbar Top*/
-body {
+.navbar-fixed-top-banner-live-text {
   background-color: #ffffff;
   text-align: center;
 }
@@ -47,7 +47,7 @@ body {
   color: #424242;
 
   text-align: left;
-  display: block;
+  display: inline-block;
 
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
@@ -70,7 +70,7 @@ hr{
 
 h3{
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  display: block;
+  display: inline-block;
   font-weight: 700;
   line-height: 1.3;
   color: #424242;
@@ -84,7 +84,7 @@ h3{
 
 .eventtext{
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  display: block;
+  display: inline-block;
   font-size: 93.75%;
   font-weight: 400;
   color: #222;
@@ -97,17 +97,17 @@ h3{
 
 .photo-item1{
   display: block;
-  margin-inline-end: 19em;
+  margin-inline-start: 13.5%;
 }
 
 .photo-item2{
   display: block;
-  margin-inline-end: 39em;
+  margin-inline-start: 13.5%;
 }
 
 .photo-item3{
   display: block;
-  margin-inline-end: 42em;
+  margin-inline-start: 13.5%;
 }
 .photo {
   width: auto;
@@ -120,4 +120,5 @@ footer{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   color: #C0C0C0;
+  text-align: center;
 }
