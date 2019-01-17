@@ -1,6 +1,6 @@
 https://ohstem.org
 
-PLEASE READ ME!!!!
+PLEASE READ ME!!
 
 CONTEXT FOR THIS WEBSITE:
 
